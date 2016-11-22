@@ -24,7 +24,7 @@ URL of my server: [https://maurizio-franchi-assignment2.herokuapp.com/sdelab](ht
 *[src/client](src/client)*: contains the client;  
 *[src/ehealth/App.java](src/ehealth/App.java)*: stand alone server;    
 *[client-MyServer-json.log](client-MyServer-json.log)*: log file of the client calling [my server](https://maurizio-franchi-assignment2.herokuapp.com/sdelab) using XML format;  
-*[client-MyServer-json.log](client-MyServer-json.log)*: log file of the client calling [my server]https://maurizio-franchi-assignment2.herokuapp.com/sdelab) using JSON format;  
+*[client-MyServer-json.log](client-MyServer-json.log)*: log file of the client calling [my server](https://maurizio-franchi-assignment2.herokuapp.com/sdelab) using JSON format;  
 
 ### Installation
 
