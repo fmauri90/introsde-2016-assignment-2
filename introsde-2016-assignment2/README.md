@@ -38,7 +38,7 @@ In order to execute this project you need the following technologies (in the bra
 Then, clone the repository. Run in your terminal:
 
 ```
-git clone https://github.com/abonte/introsde-2015-assignment-2.git
+https://github.com/fmauri90/introsde-2016-assignment-2
 ```
 
 and run the following command:
