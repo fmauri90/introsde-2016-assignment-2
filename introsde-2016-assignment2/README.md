@@ -104,5 +104,5 @@ Request #12: [GET /person?measureType={measureType}&max={max}&min={min}](#get-pe
 
 ### Problems
 
-When I run the client after go the server in heroku I have a problem with the fourth request. It says: "The type of "hr" element must end with the corresponding end tag "</ hr>"". 
+When I run the client after go the server in heroku I have a problem with the fourth request. It says: "The type of "hr" element must end with the corresponding end tag "</ hr>"". The problem is not resolved also Marcelo.
 
