@@ -1,0 +1,6 @@
+     [echo] 'execute.client.myServer.xml' target has been called
+     [java] Server URL : https://maurizio-franchi-assignment2.herokuapp.com/sdelab
+     [java] MediaType  : application/xml
+     [java] java.lang.NullPointerException
+     [java] 	at client.TestClient.getPeople(TestClient.java:86)
+     [java] 	at client.TestClient.main(TestClient.java:625)
