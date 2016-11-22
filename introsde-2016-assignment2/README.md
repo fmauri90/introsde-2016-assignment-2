@@ -99,4 +99,10 @@ Request #8: [POST /person/{id}/{measureType}](#post-personidmeasuretype)
 Request #9: [GET /measureTypes](#get-measuretypes)  
 Request #10: [PUT /person/{id}/{measureType}/{mid}](#put-personidmeasuretypemid)  
 Request #11: [GET /person/{id}/{measureType}?before={beforeDate}&after={afterDate}](#get-personidmeasuretypebeforebeforedateafterafterdate)  
-Request #12: [GET /person?measureType={measureType}&max={max}&min={min}](#get-personmeasuretypemeasuretypemaxmaxminmin)  
+Request #12: [GET /person?measureType={measureType}&max={max}&min={min}](#get-personmeasuretypemeasuretypemaxmaxminmin) 
+
+
+### Problems
+
+When I run the client after go the server in heroku I have a problem with the fourth request. It says: "The type of "hr" element must end with the corresponding end tag "</ hr>"". 
+
