@@ -606,8 +606,8 @@ public class TestClient {
 	public static void main(String[] args) {
 		
 			//sets the server	
-				uriServer = "http://127.0.1.1:5700/sdelab/"; //My server
-			//	uriServer = "https://maurizio-franchi-assignment2.herokuapp.com/sdelab";
+			//	uriServer = "http://127.0.1.1:5700/sdelab/"; //My server
+				uriServer = "https://maurizio-franchi-assignment2.herokuapp.com/sdelab";
 		
 			//sets the media type (XML or JSON)
 			if(args.equals("JSON"))

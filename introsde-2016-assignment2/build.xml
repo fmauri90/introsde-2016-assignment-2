@@ -136,12 +136,6 @@
 
 	<target name="execute.client" depends="install">
 		<echo message="'execute.client' target has been called"/>
-		<antcall target="execute.client.partnerServer.xml"/>
-		<antcall target="execute.client.partnerServer.json"/>
-	</target>
-
-	<target name="execute.client.myServer" depends="install">
-		<echo message="'execute.client.myServer' target has been called"/>
 		<antcall target="execute.client.myServer.xml"/>
 		<antcall target="execute.client.myServer.json"/>
 	</target>

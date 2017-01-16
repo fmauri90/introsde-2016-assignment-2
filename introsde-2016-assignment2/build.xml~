@@ -136,12 +136,6 @@
 
 	<target name="execute.client" depends="install">
 		<echo message="'execute.client' target has been called"/>
-		<antcall target="execute.client.partnerServer.xml"/>
-		<antcall target="execute.client.partnerServer.json"/>
-	</target>
-
-	<target name="execute.client.myServer" depends="install">
-		<echo message="'execute.client.myServer' target has been called"/>
 		<antcall target="execute.client.myServer.xml"/>
 		<antcall target="execute.client.myServer.json"/>
 	</target>
@@ -164,24 +158,6 @@
 		<echo message="Created the file client-MyServer-xml.log containing the output of the execute.client.myServer.json target" />
 	</target>
 
-	<target name="execute.client.partnerServer.xml">
-		<record name="client-server-xml.log" action="start" append="no"/>
-		<echo message="'execute.client.partnerServer.xml' target has been called"/>
-		<java classname="client.TestClient" classpath="${build.dir}" fork="true">
-			<arg value="partnerServer"/>
-			<arg value="XML"/>
-			<classpath>
-				<path location="build" />
-				<fileset dir="${lib.dir}">
-					<include name="**/*.jar" />
-					<include name="*.jar" />
-				</fileset>
-			</classpath>
-		</java>
-		<record name="client-server-xml.log" action="stop"/>
-		<echo message="Created the file client-server-xml.log containing the output of the execute.client target" />
-	</target>
-
 	<target name="execute.client.myServer.json">
 		<record name="client-MyServer-json.log" action="start" append="no"/>	
 		<echo message="'execute.client.myServer.json' target has been called"/>  		
@@ -199,23 +175,4 @@
 		<record name="client-MyServer-json.log" action="stop"/>
 		<echo message="Created the file client-MyServer-json.log containing the output of the execute.client.myServer.json target" />
 	</target>
-
-	<target name="execute.client.partnerServer.json">
-		<record name="client-server-json.log" action="start" append="no"/>
-		<echo message="'execute.client.partnerServer.json' target has been called"/>
-		<java classname="client.TestClient" classpath="${build.dir}" fork="true">
-			<arg value="partnerServer"/>
-			<arg value="JSON"/>
-			<classpath>
-				<path location="build" />
-				<fileset dir="${lib.dir}">
-					<include name="**/*.jar" />
-					<include name="*.jar" />
-				</fileset>
-			</classpath>
-		</java>
-		<record name="client-server-json.log" action="stop"/>
-		<echo message="Created the file client-server-json.log containing the output of the execute.client target" />
-	</target>
-
 </project>
