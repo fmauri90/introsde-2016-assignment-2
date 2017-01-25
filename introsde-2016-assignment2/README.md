@@ -9,7 +9,7 @@ This repository is the solution to the [second assignment](https://sites.google.
 * [LAB07]: Reading and writing from Databases & JPA (Java Persistence API)
 
  
-URL of my server: [https://powerful-chamber-16261.herokuapp.com/sdelab](https://powerful-chamber-16261.herokuapp.com/sdelab)  
+URL of my server: [https://maurizio-franchi-assignment2.herokuapp.com/sdelab](https://maurizio-franchi-assignment2.herokuapp.com/sdelab)  
 
 ### Code
 
