@@ -22,7 +22,12 @@ URL of my server: [https://maurizio-franchi-assignment2.herokuapp.com/sdelab](ht
 *[src/ehealth/resources](src/ehealth/resources)*: contains the resource classes;  
 *[src/ehealth/wrapper](src/ehealth/wrapper)*: contains the wrapper used to format XML and JSON;  
 *[src/client](src/client)*: contains the client;  
-*[src/ehealth/App.java](src/ehealth/App.java)*: stand alone server;
+*[src/ehealth/App.java](src/ehealth/App.java)*: stand alone server;  
+*[client-server-xml.log](client-server-xml.log)*: log file of the client calling [partner server](https://enigmatic-sierra-2066.herokuapp.com/sdelab/) using XML format;  
+*[client-server-json.log](client-server-json.log)*: log file of the client calling [partner server](https://enigmatic-sierra-2066.herokuapp.com/sdelab/) using JSON format;  
+*[client-MyServer-json.log](client-MyServer-json.log)*: log file of the client calling [my server](https://peaceful-hamlet-5616.herokuapp.com/sdelab) using XML format;  
+*[client-MyServer-json.log](client-MyServer-json.log)*: log file of the client calling [my server](https://peaceful-hamlet-5616.herokuapp.com/sdelab) using JSON format;  
+
 ### Installation
 
 In order to execute this project you need the following technologies (in the brackets you see the version used to develop):
@@ -70,6 +75,8 @@ ant install
 ```
 and then one of the following command:
 
+* `execute.client.partnerServer.xml`
+* `execute.client.partnerServer.json`
 * `execute.client.myServer.xml`
 * `execute.client.myServer.json`
 * `ant clean` this command deletes the folders created during the compile phase and the file created during the execution of the various targets. 

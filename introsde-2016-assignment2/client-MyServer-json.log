@@ -1,5 +1,5 @@
      [echo] 'execute.client.myServer.json' target has been called
-     [java] Server URL : http://127.0.1.1:5700/sdelab/
+     [java] Server URL : https://powerful-chamber-16261.herokuapp.com/sdelab
      [java] MediaType  : application/xml
      [java] ===========================================================================
      [java] Request #1: GET /person Accept: APPLICATION/XML Content-type: APPLICATION/XML
@@ -11,7 +11,7 @@
      [java]         <idPerson>1</idPerson>
      [java]         <firstname>Andrea</firstname>
      [java]         <lastname>Grant</lastname>
-     [java]         <birthdate>1978-09-01T00:00:00+02:00</birthdate>
+     [java]         <birthdate>1978-08-31T22:00:00Z</birthdate>
      [java]         <healthprofile>
      [java]             <measureType>
      [java]                 <measure>weight</measure>
@@ -27,7 +27,7 @@
      [java]         <idPerson>2</idPerson>
      [java]         <firstname>Maurizio</firstname>
      [java]         <lastname>Daldon</lastname>
-     [java]         <birthdate>2000-10-11T00:00:00+02:00</birthdate>
+     [java]         <birthdate>2000-10-10T22:00:00Z</birthdate>
      [java]         <healthprofile>
      [java]             <measureType>
      [java]                 <measure>weight</measure>
@@ -43,7 +43,7 @@
      [java]         <idPerson>3</idPerson>
      [java]         <firstname>Pinco</firstname>
      [java]         <lastname>Pallino</lastname>
-     [java]         <birthdate>2000-10-11T00:00:00+02:00</birthdate>
+     [java]         <birthdate>2000-10-10T22:00:00Z</birthdate>
      [java]         <healthprofile>
      [java]             <measureType>
      [java]                 <measure>weight</measure>
@@ -66,7 +66,7 @@
      [java]     <idPerson>1</idPerson>
      [java]     <firstname>Andrea</firstname>
      [java]     <lastname>Grant</lastname>
-     [java]     <birthdate>1978-09-01T00:00:00+02:00</birthdate>
+     [java]     <birthdate>1978-08-31T22:00:00Z</birthdate>
      [java]     <healthprofile>
      [java]         <measureType>
      [java]             <measure>weight</measure>
@@ -89,10 +89,10 @@
      [java]      => HTTP Status: 200
      [java]  
      [java] <person>
-     [java]     <idPerson>506</idPerson>
+     [java]     <idPerson>452</idPerson>
      [java]     <firstname>Chuck</firstname>
      [java]     <lastname>Norris</lastname>
-     [java]     <birthdate>1945-01-01T00:00:00+01:00</birthdate>
+     [java]     <birthdate>1945-01-01T00:00:00Z</birthdate>
      [java]     <healthprofile>
      [java]         <measureType>
      [java]             <measure>weight</measure>
@@ -106,7 +106,7 @@
      [java] </person>
      [java] 
      [java] ===========================================================================
-     [java] Request #5: DELETE /person/506 Accept: APPLICATION/XML Content-type: APPLICATION/XML
+     [java] Request #5: DELETE /person/452 Accept: APPLICATION/XML Content-type: APPLICATION/XML
      [java]      => Result: OK
      [java]      => HTTP Status: 204
      [java]  
@@ -135,7 +135,7 @@
      [java]     <measure>
      [java]         <mid>1</mid>
      [java]         <value>72.3</value>
-     [java]         <created>2015-11-14T00:00:00+01:00</created>
+     [java]         <created>2015-11-13T23:00:00Z</created>
      [java]     </measure>
      [java] </measureHistory>
      [java]  
@@ -144,82 +144,37 @@
      [java]     <measure>
      [java]         <mid>2</mid>
      [java]         <value>1.86</value>
-     [java]         <created>2015-11-14T00:00:00+01:00</created>
+     [java]         <created>2015-11-13T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>103</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>153</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>203</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>253</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>303</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>353</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>356</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>359</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>362</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>365</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>403</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>406</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>409</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>412</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>415</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-09T00:00:00Z</created>
      [java]     </measure>
      [java] </measureHistory>
      [java] 
@@ -230,7 +185,7 @@
      [java]     <measure>
      [java]         <mid>55</mid>
      [java]         <value>69.0</value>
-     [java]         <created>2016-11-20T00:00:00+01:00</created>
+     [java]         <created>2016-11-19T23:00:00Z</created>
      [java]     </measure>
      [java] </measureHistory>
      [java]  
@@ -239,7 +194,7 @@
      [java]     <measure>
      [java]         <mid>56</mid>
      [java]         <value>90</value>
-     [java]         <created>2016-11-20T00:00:00+01:00</created>
+     [java]         <created>2016-11-19T23:00:00Z</created>
      [java]     </measure>
      [java] </measureHistory>
      [java] 
@@ -273,87 +228,42 @@
      [java]     <measure>
      [java]         <mid>2</mid>
      [java]         <value>1.86</value>
-     [java]         <created>2015-11-14T00:00:00+01:00</created>
+     [java]         <created>2015-11-13T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>103</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>153</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>203</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>253</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>303</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-08T23:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>353</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-09T00:00:00Z</created>
      [java]     </measure>
      [java]     <measure>
      [java]         <mid>356</mid>
      [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>359</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>362</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>365</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>403</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>406</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>409</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>412</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>415</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
-     [java]     </measure>
-     [java]     <measure>
-     [java]         <mid>418</mid>
-     [java]         <value>72</value>
-     [java]         <created>2011-12-09T00:00:00+01:00</created>
+     [java]         <created>2011-12-09T00:00:00Z</created>
      [java]     </measure>
      [java] </measureHistory>
      [java] 
@@ -367,7 +277,7 @@
      [java]         <idPerson>1</idPerson>
      [java]         <firstname>Andrea</firstname>
      [java]         <lastname>Grant</lastname>
-     [java]         <birthdate>1978-09-01T00:00:00+02:00</birthdate>
+     [java]         <birthdate>1978-08-31T22:00:00Z</birthdate>
      [java]         <healthprofile>
      [java]             <measureType>
      [java]                 <measure>weight</measure>
